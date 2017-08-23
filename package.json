@@ -1,0 +1,41 @@
+{
+  "name": "postcss-gap",
+  "version": "0.1.0",
+  "description": "PostCSS plugin to create fallbacks for the css properties row-gap, column-gap and gap.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "grid-row-gap",
+    "row-gap",
+    "grid-column-gap",
+    "column-gap",
+    "grid-gap",
+    "gap",
+    "fallback"
+  ],
+  "author": "Matthias Müller <matthiasundmueller@gmail.com>",
+  "license": "MIT",
+  "repository": "MattDiMu/postcss-gap",
+  "bugs": {
+    "url": "https://github.com/MattDiMu/postcss-gap/issues"
+  },
+  "homepage": "https://github.com/MattDiMu/postcss-gap",
+  "dependencies": {
+    "postcss": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
