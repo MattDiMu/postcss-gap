@@ -1,6 +1,6 @@
 {
   "name": "postcss-gap",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "PostCSS plugin to create fallbacks for the css properties row-gap, column-gap and gap.",
   "keywords": [
     "postcss",
